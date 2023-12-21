@@ -1,4 +1,4 @@
-package Maps;
+package src.Maps;
 
 import java.util.LinkedHashMap;
 import java.util.Map;
@@ -45,6 +45,7 @@ public class PersonRegistry {
         }
         System.out.println();
     }
+
 }
 
 

@@ -1,4 +1,4 @@
-package Maps;
+package src.Maps;
 
 import java.util.HashMap;
 import java.util.LinkedHashMap;
@@ -54,5 +54,6 @@ public class Stock {
         System.out.println();
 
     }
+
 }
 

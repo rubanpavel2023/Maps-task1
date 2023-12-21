@@ -1,4 +1,4 @@
-package Maps;
+package src.Maps;
 
 public class Main {
     public static void main(String[] args) {
@@ -33,6 +33,7 @@ public class Main {
         addressBook.addOrUpdateContact("Tom", "tomasdev@glob.net");
         addressBook.createContactList();
     }
+
 }
 
 

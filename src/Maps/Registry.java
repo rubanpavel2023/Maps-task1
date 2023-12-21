@@ -1,4 +1,4 @@
-package Maps;
+package src.Maps;
 
 import java.util.HashMap;
 import java.util.InputMismatchException;
@@ -54,13 +54,12 @@ public class Registry {
 
     private void printKit() {
         for (Map.Entry<String, Integer> entry : kit.entrySet()) {
-            String productName = entry.getKey();
-            int quantity = entry.getValue();
             System.out.println(counter.getAndIncrement() + ") " + entry.getKey() + ": " + entry.getValue() + " units");
 
         }
         System.out.println();
     }
+
 }
 
 
