@@ -59,6 +59,7 @@ public class Registry {
         }
         System.out.println();
     }
+
 }
 
 
